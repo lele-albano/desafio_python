@@ -29,4 +29,4 @@
 09) Extrato em branco (sem movimentações)
 "Não foram realizadas movimentações."
 
-10) O valor deve ser expresso da seguinte forma: R$xxx.xx
+10) O valor deve ser expresso da seguinte forma: R$xxx.xx.
