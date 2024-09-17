@@ -1,32 +1,35 @@
-# Desafio 
+# Desafio Sistema Bancário
 
-01) Implementar sistema bancário:
-- [] Depositar
-- [] Sacar
-- [] Extrato
-- [] Sair
+Implementar sistema bancário:
+- [x] Depositar
+- [x] Sacar
+- [x] Extrato
+- [x] Sair
 
 ### Operação Depósito
-02) Depositar apenas valores POSITIVOS
-
-03) Todos os depósitos devem ser exibidos no extrato
+- [x] Depositar apenas valores POSITIVOS
+- [x] Populei a lista extrato com depósitos
+- [x] Todos os depósitos devem ser exibidos no extrato (usando for/in)
 
 ### Operação Saque
-04) O sistema deve realizar:
-- Saque = 3/dia
-- Limite_Diario = 500/saque
+- [x] Limite de Saque = 3/dia
+    Se lista contem 3 números negativos print "Excedeu o limite de saque diário"
 
-05) Se saldo < valor_de_saque
-"Não será possível sacar o dinheiro por falta de saldo."
+- [x] Limite_Diario = 500/saque
+    Se saque > 500 print "Valor de saque proibido"
+    Se soma dos saques da lista for > 1500 print "Valor total diario excedido"
 
-06) Todos os saques devem ser exibidos no extrato
+- [x] Se saldo < valor_de_saque
+    "Saldo insuficiente"
+
+- [x] Para que todos os saques fossem exibidos no extrato, populei a lista de extrato com saque
 
 ### Operação Extrato
-07) Listar todos os saldos e saques realizados
+- [x] Listar todos os saldos e saques realizados
 
-08) Exibir saldo da conta
+- [x] Exibir saldo da conta
 
-09) Extrato em branco (sem movimentações)
-"Não foram realizadas movimentações."
+- [x] Extrato em branco (sem movimentações) // usando operador de igualdade ==
+    "Não foram realizadas movimentações."
 
-10) O valor deve ser expresso da seguinte forma: R$xxx.xx.
+- [x] O valor deve ser expresso da seguinte forma: R$xxx.xx.
