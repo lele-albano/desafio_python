@@ -9,22 +9,33 @@ MENU = """
 [q] Sair
 
 """
+
+saldo = 0.0
+limite = 500
+extrato = []
+
 #aula de estrutura de repetição e break
 while True: 
-    print (MENU)
+    print(MENU)
     opcao = input("Informe qual opção você deseja:")
     
-
-
-    if opcao == "d":
+    
+    if opcao.lower() == "d":
         print("Depósito")
+        deposito = float(input("Qual valor deseja depositar?"))
+        saldo += deposito 
 
-    elif opcao == "s":
+    elif opcao.lower() == "s":
         print("Sacar")
+        saque = float(input("Qual valor deseja sacar?"))
+        saldo -= saque
 
-    elif opcao == "e":
-        print("Extrato")
+    elif opcao.lower () == "e":
+        print(f"Extrato {saldo}")
 
-    elif opcao == "q":
+    elif opcao.lower() == "q":
         break
+
+    else:
+        print("Opcão inválida, tente novamente!")
 
