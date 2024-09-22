@@ -1,0 +1,62 @@
+# Ignore arquivos compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore arquivos de configuração locais
+*.local
+
+# Ignore arquivos de configuração de ambiente
+*.env
+
+# Ignore arquivos de configuração de banco de dados
+*.db
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos de cache
+*.cache
+
+# Ignore arquivos de build
+build/
+dist/
+
+# Ignore arquivos de teste
+test/
+
+# Ignore arquivos de desenvolvimento
+*.swp
+*.swo
+*.DS_Store
+
+# Ignore arquivos de configuração de ambiente
+.env
+
+# Ignore arquivos de configuração de contêiner
+Dockerfile
+docker-compose.yml
+
+# Ignore arquivos de configuração de deploy
+deploy.sh
+
+# Ignore arquivos de configuração de CI/CD
+.github/
+.gitlab-ci.yml
+
+# Ignore arquivos específicos do Python
+__pycache__/
+*.egg-info/
+
+# Ignore arquivos de dependências
+requirements.txt
+Pipfile
+Pipfile.lock
+
+# Ignore arquivos de documentação
+docs/
+doc/
+
+# Ignore arquivos de exemplo
+examples/
+lab.py 

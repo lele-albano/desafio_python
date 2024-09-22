@@ -1,6 +1,8 @@
 # Desafio Sistema Bancário
 
-Implementar sistema bancário:
+## Desafio 1: Conta Bancária
+
+### Implementar sistema bancário:
 - [x] Depositar
 - [x] Sacar
 - [x] Extrato
@@ -33,3 +35,36 @@ Implementar sistema bancário:
     "Não foram realizadas movimentações."
 
 - [x] O valor deve ser expresso da seguinte forma: R$xxx.xx.
+
+## Desafio 2: Data e Hora
+
+- [] Limite de transações por dia = 10
+- [] O alerta tem que ser exibido se o número de transações do dia ultrapassar o limite
+- [] Mostrar no extrato data e hora das transações.
+
+## Desafio 3: Funções
+
+- [x] Modularizar saque, depósito e extrato em funções. 
+- [] Função: cadastrar usuário (cliente).
+    - [] Cadastrar nome, data de nascimento, CPF e endereço.
+        - [] Endereço string com formato logradouro, nº, bairro, cidade/sigla do estado.
+        - [] CPF apenas numeros.
+        - [] Proibido 2 usuários com o mesmo CPF.
+- [] Função: cadastrar conta bancária vinculada ao usuário.
+    - [] A conta é composta por: agência, número da conta e usuário.
+        - [] Numero da conta sempre iniciada por 1
+        - [] Agência fixa em 0001
+        - [] Usuário pode ter mais de 1 conta
+        - [] Cada conta pertence a apenas 1 usuario
+
+### Saque (keyword only)
+- [] Argumentos: saldo, valor, extrato, limite, numero_saques e limite_saques.
+- [] Retorno: saldo e extrato.
+
+### Depósito (positional only)
+- [] Argumentos: saldo, valor, extrato.
+- [] Retorno: saldo e extrato.
+
+### Extrato (keyword and positional)
+- [] Argumentos posicionais: saldo.
+- [] Argumentos nomeados: extrato.
