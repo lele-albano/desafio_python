@@ -38,9 +38,9 @@
 
 ## Desafio 2: Data e Hora
 
-- [] Limite de transações por dia = 10
-- [] O alerta tem que ser exibido se o número de transações do dia ultrapassar o limite
-- [] Mostrar no extrato data e hora das transações.
+- [x] Limite de transações por dia = 10
+- [x] O alerta tem que ser exibido se o número de transações do dia ultrapassar o limite
+- [x] Mostrar no extrato data e hora das transações.
 
 ## Desafio 3: Funções
 
@@ -58,13 +58,13 @@
         - [] Cada conta pertence a apenas 1 usuario
 
 ### Saque (keyword only)
-- [] Argumentos: saldo, valor, extrato, limite, numero_saques e limite_saques.
-- [] Retorno: saldo e extrato.
+- [x] Argumentos: saldo, valor, extrato, limite, numero_saques e limite_saques.
+- [x] Retorno: saldo e extrato.
 
 ### Depósito (positional only)
-- [] Argumentos: saldo, valor, extrato.
-- [] Retorno: saldo e extrato.
+- [x] Argumentos: saldo, valor, extrato.
+- [x] Retorno: saldo e extrato.
 
 ### Extrato (keyword and positional)
-- [] Argumentos posicionais: saldo.
-- [] Argumentos nomeados: extrato.
+- [x] Argumentos posicionais: saldo.
+- [x] Argumentos nomeados: extrato.
